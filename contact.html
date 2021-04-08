@@ -61,20 +61,24 @@
     </nav>
     <!-- contact form -->
 
+    <form action="https://formsubmit.co/ag.arjungupta98@gmail.com" method="POST">
+        <!-- <input type="hidden" name="_subject" value="New submission!"> -->
+        <input type="hidden" name="_subject" value="weCoder just got a new request!">
+   
     <div class="container my-4">
         <h2>Contact Us</h2>
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1"
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
                 placeholder="Enter your Email Address...">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Type in your concern</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button type="button" class="btn btn-primary my-2">Submit</button>
+            <textarea class="form-control" name="concern" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button type="submit" class="btn btn-primary my-2">Submit</button>
         </div>
 
-
+    </form>
         <!-- adding the line above footer -->
         <hr class="container featurette-divider">
         <!-- adding a footer -->
